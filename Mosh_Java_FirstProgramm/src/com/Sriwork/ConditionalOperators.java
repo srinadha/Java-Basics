@@ -13,10 +13,19 @@ public class ConditionalOperators {
 		System.out.println(isWarm);
 		
 		//logical Operator ||
-		boolean hasHighIncome = true;
+		//boolean hasHighIncome = true;
 		boolean hasGoodCredit = true;
-		boolean hasCriminalRecord = false;
-		boolean isEligible = (hasGoodCredit || hasHighIncome) && !hasCriminalRecord;
+		boolean hasCriminalRecord = false ;
+		boolean isEligible = (hasGoodCredit) && !hasCriminalRecord;
 		System.out.println(isEligible);
+		
+		//Simplifing if statements
+		int income = 100_000;
+		boolean hasHighIncome = (income >100000);
+		System.out.println(hasHighIncome);
+		
+		//terenory Operators
+		String className = income >100_000 ? "First" : "Economy";
+		System.out.println(className);
 	}
 }

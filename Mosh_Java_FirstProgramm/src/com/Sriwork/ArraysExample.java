@@ -12,6 +12,10 @@ public class ArraysExample {
 		
 		int[] numbersNew = {3,2,4,1,5};  //new Array representation
 		
+		for (int i = 0; i <= numbersNew.length; i++) {
+			System.out.println(numbersNew[i]);
+		}
+		
 		//numbersNew[10] = 3;
 		
 		Arrays.sort(numbersNew);
@@ -33,6 +37,16 @@ public class ArraysExample {
 		 Boolean[] condition = new Boolean[2];
 		 
 		 System.out.println(Arrays.deepToString(condition));
+		 
+		 int[] numbersArray = new int[10];
+		 
+		 numbersArray[0] = 10;
+		 numbersArray[1] = 12;
+		 numbersArray[3] = 3;
+		 
+		 Arrays.sort(numbersArray);
+		 System.out.println(Arrays.toString(numbersArray));
+		 
 		
 		  
 

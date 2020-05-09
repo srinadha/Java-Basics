@@ -4,7 +4,7 @@ public class StringExamples {
 	
 	public static void main(String[] args) {
 		
-		final String message = "Hello World" + "!!" ;
+		 String message = "Hello \b World" + "!!" ; 
 		
 		System.out.println(message +"* *");
 		

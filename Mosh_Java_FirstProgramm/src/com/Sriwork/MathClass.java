@@ -14,7 +14,7 @@ public class MathClass {
 		
 		double result4 = Math.random() ;
 		
-		System.out.println(result4);
+		System.out.println(result3);
 		
 		System.out.println(result1);
 	}

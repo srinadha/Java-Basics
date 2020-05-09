@@ -15,8 +15,8 @@ public class NumberFormatExample {
 	    
 	  //converting fraction to percentage
 	    NumberFormat percent =  NumberFormat.getPercentInstance();
-	    String result1 = percent.format(0.1);
-	    System.out.println(result1);
+	    String result1 = percent.format(0.30);
+	    System.out.println(Integer.parseInt(result1));
 	    
 		
 	}

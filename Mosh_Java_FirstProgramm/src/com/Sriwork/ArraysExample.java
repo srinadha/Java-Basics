@@ -1,54 +1,37 @@
 package com.Sriwork;
 
-import java.util.Arrays;
-
 public class ArraysExample {
+	
+	public static int[] numbers = {10,20,30,40,50};
+	
+	public static int[] num = new int[5];
+	
 
+	static void min(int arr[]) {
+		int min = arr[0];
+		for(int i = 0; i < num.length; i++) {
+			if(min > arr[i]) {
+				min = arr[i];
+			}
+			}
+		System.out.println(min);
+	}
+	
 	public static void main(String[] args) {
-		int[] numbers =  new int[5]; //older version of initalizing the arrays
 		
-		numbers[0] = 1;
-		numbers[1] = 2;
-		
-		int[] numbersNew = {3,2,4,1,5};  //new Array representation
-		
-		for (int i = 0; i <= numbersNew.length; i++) {
-			System.out.println(numbersNew[i]);
-		}
-		
-		//numbersNew[10] = 3;
-		
-		Arrays.sort(numbersNew);
-				
-		System.out.println(Arrays.toString(numbersNew));
+		min(numbers);
+	
+//		System.out.println(num.length);
+//		
+//		for (int i: numbers) {
+//			System.out.println(i);
+//		}
+////		
+//		for(int i = 0; i < num.length; i++) {
+//			System.out.println("values of array ny index : " + num[i]);
+//		}
 		
 		
-		
-		 String[] messages = new String[10];
-		 
-		 messages[0] = "Srinath";
-		 messages[1] = "mahesh";
-		 messages[2] = "priyanka";
-		 messages[3] = "vikram";
-		 
-		 System.out.println(Arrays.deepToString(messages));
-		 System.out.println(messages.length );
-		 
-		 Boolean[] condition = new Boolean[2];
-		 
-		 System.out.println(Arrays.deepToString(condition));
-		 
-		 int[] numbersArray = new int[10];
-		 
-		 numbersArray[0] = 10;
-		 numbersArray[1] = 12;
-		 numbersArray[3] = 3;
-		 
-		 Arrays.sort(numbersArray);
-		 System.out.println(Arrays.toString(numbersArray));
-		 
-		
-		  
-
 	}
 }
+		
